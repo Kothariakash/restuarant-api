@@ -23,7 +23,7 @@ pip install -r requirements.txt
 
 python run.py
 
-Everything should be ready. In your browser open http://127.0.0.1:5000/
+Everything should be ready. In your browser open http://127.0.0.1:8000/
 
 
 
