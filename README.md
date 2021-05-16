@@ -1,4 +1,4 @@
-# restuarant-api 
+# restaurant-api 
 An api, that help a restaurant with sort orders of food for tables.     This api should have :  
 ·      Ability to place orders  
 ·      Ability to provide menu  
@@ -15,20 +15,20 @@ Virtualenv
 
 cd path/to/workspace
 
-python -mvenv env
+python -m venv env
 
 env/Scripts/activate
 
 pip install -r requirements.txt
 
-python run.py
+python manage.py runserver
 
 Everything should be ready. In your browser open http://127.0.0.1:8000/
 
 
 
 ## Endpoints -
-### API 1 - Getting the Menu of the restuarant
+### API 1 - Getting the Menu of the restaurant
 ### http://127.0.0.1:8000/api/v1.0/menu/ 
 ![menu_api](https://user-images.githubusercontent.com/53464861/118398485-82b18400-b676-11eb-85de-38975418369e.JPG)
 
